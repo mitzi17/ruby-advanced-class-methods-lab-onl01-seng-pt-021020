@@ -37,7 +37,9 @@ class Song
   end
   
   def alphabetical
-    @@all.sort
+    @@all.sort_by
+  end
+  
   
   
 
